@@ -41,7 +41,7 @@ By the end of 90 days, I want to:
 -  Basic Kubernetes understanding
 - Infrastructure as Code basics
 -  Create real DevOps projects
--  Be interview-ready for Junior DevOps / Cloud roles
+-  Be interview-ready for DevOps / Cloud roles
 
 ## Schedule 
 
