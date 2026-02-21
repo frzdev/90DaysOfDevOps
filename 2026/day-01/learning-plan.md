@@ -45,4 +45,4 @@ By the end of 90 days, I want to:
 
 ## Schedule 
 
-- 3 hours daily practice & 1 hr revision on daily basis for 90 days .
+- 2-3 hours daily basis for 90 days .
