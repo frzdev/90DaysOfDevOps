@@ -75,7 +75,11 @@ systemd starts it automatically
 
 ## 5 Commands used daily
 -ps or top : Provides process ID, memory usage, CPU time and command name which is crucial for monitoring system performance and troubleshooting.
+
 -chmod : Changing permission of files.
+
 -ssh : Provides secure shell connecting to remote server.
+
 -systemctl : Managing system services (starting, stopping).
+
 -df /du : df is used to monitor disk space usage and du is used to estimate size of a specific directory.a
