@@ -10,7 +10,7 @@ Applications → User programs like browsers, editors, servers running on top of
 
 Flow: User → Applications → Shell → Kernel → Hardware
 
-
+![snapshot](linux_architecture.png)
 ## Processes in Linux
 A process is simply a program in execution that has a unique PID and is managed by the kernel for creation, scheduling, and termination.
 
