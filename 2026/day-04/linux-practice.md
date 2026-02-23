@@ -14,6 +14,7 @@ SSH daemon runs as root
 User sessions run as ubuntu
 Multiple sessions create multiple sshd processes (normal behavior)
 📸 Output:
+
 ![snapshot](psux-sshd.png)
 
 2.* `pgrep -a sshd` .
@@ -26,7 +27,9 @@ sshd → The SSH daemon process (SSH server).
 -a → Shows full command line along with PID.
 
 👉 So this command lists all running SSH daemon processes with their PID + full command.
+
 📸 Output:
+
 ![snapshot](pgrep.jpg)
 ## Service Commands
 
