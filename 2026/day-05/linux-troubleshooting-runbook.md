@@ -6,7 +6,7 @@
 
 * Command : `uname -a`
 
-  Output : `Linux afroz 6.14.0-37-generic #37~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 20 10:25:38 UTC 2 x86_64 x86_64 x86_64 GNU/Linux`
+  Output : `Linux DESKTOP-QQDO1T7 5.15.167.4-microsoft-standard-WSL2 #1 SMP Tue Nov 5 00:21:55 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux`
 
   Observation : Kernel version and architecture confirmed.
 
