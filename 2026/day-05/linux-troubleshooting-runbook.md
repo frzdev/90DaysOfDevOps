@@ -1,4 +1,5 @@
-# RUNBOOK for ssh service
+ ### Linux Troubleshooting Runbook
+ # RUNBOOK for ssh service
 
 ### This runbook provides quick troubleshooting steps if the SSH service goes down.
 
@@ -34,13 +35,13 @@
 * Command : `ps -o pid,pcpu,pmem,comm -p $(pidof sshd)`
 
   Output : `PID %CPU %MEM COMMAND`
-            `1415  0.0  0.0 sshd`
+            `312  0.0  0.1 bash`
 
   Observation : Process running and CPU & Memory usage is negligible.
 
 * Command : `free -h`
 
-  Output : `Total: 7.7G, Used: 2.3G, Available: 5.4G`
+  Output : `Total: 3.8G, Used: 518M, free:3.3G Available: 3.3G`
   
   Observation : Sufficient memory available.
   
@@ -48,7 +49,7 @@
 
 * Command : `df -h`
 
-  Output : `/dev/sdb4       496G   15G  457G   3% / `
+  Output : `/dev/sdc       1007G  1.9G  954G   1% / `
   
   Observation : Root partition more than 90% available.
 
