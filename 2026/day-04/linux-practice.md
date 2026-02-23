@@ -1,10 +1,12 @@
 # Linux Practice – Process, Service & Log Commands
 
 ##  Process commands
-1. * `ps -aux | head -n 10` - List running processes(top 10 lines).
+### 1. `ps -aux | head -n 10`
+- List running processes(top 10 lines).
 ![snapshot](psux.jpg)
 
-* `ps aux | grep sshd` - Get the process id by process name.
+### 2. `ps aux | grep sshd`
+ - Get the process id by process name.
 Explanation:
 Shows detailed resource usage and ownership of SSH daemon and session processes.
 
@@ -17,7 +19,8 @@ Multiple sessions create multiple sshd processes (normal behavior)
 
 ![snapshot](psux-sshd.png)
 
-2.* `pgrep -a sshd` .
+### 3. `pgrep -a sshd`
+
 * What it does
 
 pgrep → Finds process IDs (PID) by process name.
@@ -67,14 +70,14 @@ systemctl status | head -n 20 - Prints first 20 lines of system service status s
 ![snapshot](system-status.jpg)
 
 ## Log Commands
-### `journalctl -u ssh -n 20` 
+### 1 `journalctl -u ssh -n 20` 
 journalctl → View system logs managed by systemd journal
 
 -u ssh → Show logs for the SSH service (ssh / sshd unit)
 
 -n 20 → Display the last 20 log entries
 
-### `tail -n 20 /var/log/auth.log`
+### 2 `tail -n 20 /var/log/auth.log`
 tail → Displays the last lines of a file
 
 -n 20 → Show the last 20 lines
