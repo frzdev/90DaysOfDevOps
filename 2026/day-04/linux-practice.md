@@ -66,4 +66,26 @@ systemctl status | head -n 20 - Prints first 20 lines of system service status s
 📸 Output:
 ![snapshot](system-status.jpg)
 
+## Log Commands
+### `journalctl -u ssh -n 20` 
+journalctl → View system logs managed by systemd journal
+
+-u ssh → Show logs for the SSH service (ssh / sshd unit)
+
+-n 20 → Display the last 20 log entries
+
+### `tail -n 20 /var/log/auth.log`
+tail → Displays the last lines of a file
+
+-n 20 → Show the last 20 lines
+
+/var/log/auth.log → Authentication log file (SSH, sudo, login events)
+
+👉 This command shows the latest 20 authentication events.
+📸 Output:
+![snapshot](tail.jpg)
+
+
+
+
 
