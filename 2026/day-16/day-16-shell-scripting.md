@@ -12,4 +12,4 @@
     - `bash hello.sh` - The script is explicitly executed by the Bash shell,independent of the presence of a shebang.
     - `sh hello.sh` - The script is executed using the `sh shell`,which may differ in behavior from bash
 
-![echo](https://github.com/srdangat/90DaysOfDevOps/blob/master/2026/day-16/images/echo.png)
+![echo](images/task-1.png)
