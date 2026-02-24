@@ -18,11 +18,15 @@
 A variable for your NAME
 A variable for your ROLE (e.g., "DevOps Engineer")
 Print: Hello, I am <NAME> and I am a <ROLE>
+
 [Script](scripts/variables.sh)
+
 ![echo](images/task-2.png)
+
 Try using single quotes vs double quotes — what's the difference?
 
 Definition:
+
 ➡️ Single quotes preserve the exact value of each character inside the quotes.
 
 ➡️ Double quotes preserve text but still allow shell to interpret variables and commands inside.
