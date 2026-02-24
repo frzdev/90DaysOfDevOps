@@ -27,10 +27,9 @@
 ![echo](images/task-2.png)
 
 Definition:
-
 ➡️ Single quotes preserve the exact value of each character inside the quotes.
-
 ➡️ Double quotes preserve text but still allow shell to interpret variables and commands inside.
+
 ---
 ### Task 3: User Input with read
 1. Create `greet.sh` that:
