@@ -46,13 +46,15 @@ Definition:
 1. Create `check_number.sh` that:
    - Takes a number using `read`
    - Prints whether it is **positive**, **negative**, or **zero**
-
+[Script](scripts/check_number.sh)
+![echo](images/task-4.png)
 2. Create `file_check.sh` that:
    - Asks for a filename
    - Checks if the file **exists** using `-f`
    - Prints appropriate message
 
-[Script](scripts/check_number.sh)
 
-![echo](images/task-4.png)
+[Script](scripts/file_check.sh)
+
+![echo](images/task-4_2.png)
 ---
