@@ -13,7 +13,8 @@
     - `sh hello.sh` - The script is executed using the `sh shell`,which may differ in behavior from bash
 
 ![echo](images/task-1.png)
-## Task 2: Variables
+---
+### Task 2: Variables
 1. Create variables.sh with:
 A variable for your NAME
 A variable for your ROLE (e.g., "DevOps Engineer")
@@ -30,12 +31,15 @@ Definition:
 ➡️ Single quotes preserve the exact value of each character inside the quotes.
 
 ➡️ Double quotes preserve text but still allow shell to interpret variables and commands inside.
-## Task 3: User Input with read
-Create greet.sh that:
-Asks the user for their name using read
-Asks for their favourite tool
-Prints: Hello <name>, your favourite tool is <tool>
+
+### Task 3: User Input with read
+1. Create `greet.sh` that:
+   - Asks the user for their name using `read`
+   - Asks for their favourite tool
+   - Prints: `Hello <name>, your favourite tool is <tool>`
+
 
 [Script](scripts/greet.sh)
 
 ![echo](images/task-3.png)
+---
