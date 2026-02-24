@@ -1,4 +1,4 @@
-# Day 06 –Read and Write text files in Linux
+# Read and Write text files in Linux
 
 ## File Created
 notes.txt
@@ -38,5 +38,5 @@ tail -n 2 notes.txt
 - Reading files using cat, head, and tail is very useful for logs.
 
 ## Hands on of above commands
-  
+ ![screenshot](notes.png) 
 
