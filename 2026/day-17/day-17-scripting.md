@@ -28,4 +28,57 @@
 
 ---
 
+   ## Task 3: Command-Line Arguments
+1. Create `greet.sh` that:
+   - Accepts a name as `$1`
+   - Prints `Hello, <name>!`
+   - If no argument is passed, prints "Usage: ./greet.sh <name>"
    
+   [Script](scripts/greet.sh)
+   
+   ![greet](images/greet.sh.png)
+
+2. Create `args_demo.sh` that:
+   - Prints total number of arguments (`$#`)
+   - Prints all arguments (`$@`)
+   - Prints the script name (`$0`)
+   
+   [Script](scripts/args_demo.sh)
+   
+   ![args_demo](images/args_demo.png)
+
+---
+## Task 4: Install Packages via Script
+1. Create `install_packages.sh` that:
+   - Defines a list of packages: `nginx`, `curl`, `wget`
+   - Loops through the list
+   - Checks if each package is installed (use `dpkg -s` or `rpm -q`)
+   - Installs it if missing, skips if already present
+   - Prints status for each package
+   
+   [Script](scripts/install_packages.sh)
+   
+   ![packages](images/packages.png)
+
+---
+
+## Task 5: Error Handling
+1. Create `safe_script.sh` that:
+   - Uses `set -e` at the top (exit on error)
+   - Tries to create a directory `/tmp/devops-test`
+   - Tries to navigate into it
+   - Creates a file inside
+   - Uses `||` operator to print an error if any step fails
+   
+   [Script](scripts/safe_script.sh)
+   
+   ![safe](images/safe.png)
+
+
+2. Modify your `install_packages.sh` to check if the script is being run as root — exit with a message if not.
+
+   [Script](scripts/modified_install_packages.sh)
+   
+   ![snapshot](images/modify_installpkg.png)
+
+---
