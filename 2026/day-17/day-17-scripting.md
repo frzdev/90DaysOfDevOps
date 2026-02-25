@@ -79,6 +79,6 @@
 
    [Script](scripts/modified_install_packages.sh)
    
-   ![snapshot](images/modify_installpkg.png)
+   ![modified_install_package.png](images/modified_install_package.png.png)
 
 ---
