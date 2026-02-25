@@ -58,7 +58,7 @@
    
    [Script](scripts/install_packages.sh)
    
-   ![install_packages](images/install_packages.png)
+   ![install_package](images/install_package.png)
 
 ---
 
