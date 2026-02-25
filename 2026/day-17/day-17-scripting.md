@@ -24,7 +24,7 @@
 
    [Script](scripts/countdown.sh)
   
-   ![coutdown](images/coutdown.png)
+   ![coutdown](images/countdown.png)
 
 ---
 
