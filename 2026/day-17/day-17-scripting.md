@@ -58,7 +58,7 @@
    
    [Script](scripts/install_packages.sh)
    
-   ![packages](images/packages.png)
+   ![install_packages](images/install_packages.png)
 
 ---
 
@@ -72,7 +72,7 @@
    
    [Script](scripts/safe_script.sh)
    
-   ![safe](images/safe.png)
+   ![safe_script](images/safe_script.png)
 
 
 2. Modify your `install_packages.sh` to check if the script is being run as root — exit with a message if not.
