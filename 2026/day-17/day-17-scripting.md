@@ -7,3 +7,9 @@
    [Script](scripts/for_loop.sh)
    
    ![for_loop](images/for_loop.png)
+2. Create `count.sh` that:
+   - Prints numbers 1 to 10 using a for loop
+   
+   [Script](scripts/count.sh)
+   
+   ![count](images/count.png)
