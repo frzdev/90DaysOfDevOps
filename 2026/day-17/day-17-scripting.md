@@ -23,8 +23,8 @@
    - Prints "Done!" at the end
 
    [Script](scripts/countdown.sh)
-   
-   ![countdown](images/coutdown.png)
+  
+   ![coutdown](images/coutdown.png)
 
 ---
 
