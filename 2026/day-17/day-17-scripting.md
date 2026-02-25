@@ -13,3 +13,19 @@
    [Script](scripts/count.sh)
    
    ![count](images/count.png)
+   
+---   
+
+## Task 2: While Loop
+1. Create `countdown.sh` that:
+   - Takes a number from the user
+   - Counts down to 0 using a while loop
+   - Prints "Done!" at the end
+
+   [Script](scripts/countdown.sh)
+   
+   ![countdown](images/coutdown.png)
+
+---
+
+   
