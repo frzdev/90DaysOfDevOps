@@ -79,27 +79,30 @@ tools:
 - docker
   - kubernetes
 ```
-# Explanation:
+## Explanation:
 The issue in Block 2 is incorrect indentation of the list items under tools.
 
+```yaml
 # Block 2 - broken
 name: devops
 tools:
 - docker
   - kubernetes
+```
 🔎 Problem:
 
 - docker is not properly indented under tools.
 
 - kubernetes is indented differently.
-
+  
 YAML requires consistent indentation for list items under a key.
+
 ---
 
 ## What you learned (3 key points)
-1️⃣ YAML relies on proper indentation for structure instead of brackets.
+1. YAML relies on proper indentation for structure instead of brackets.
 
-2️⃣ Lists are created using -, making configurations clean and readable.
+2. Lists are created using -, making configurations clean and readable.
 
-3️⃣ YAML is widely used in DevOps tools like Kubernetes, Docker Compose, and CI/CD pipelines.
+3. YAML is widely used in DevOps tools like Kubernetes, Docker Compose, and CI/CD pipelines. 
 ---
