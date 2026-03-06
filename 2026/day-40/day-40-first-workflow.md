@@ -28,9 +28,9 @@ Push it. Go to the **Actions** tab on GitHub and watch it run.
 - `on:` 
  -Purpose: Defines when the workflow will run (trigger).
   
-  4. Has two steps:
-   - Step 1: Check out the code using `actions/checkout`
-   - Step 2: Print `Hello from GitHub Actions!`
+   Examples:
+   - When code is pushed
+   - When a pull request is created
 
  Examples:
      When code is pushed
