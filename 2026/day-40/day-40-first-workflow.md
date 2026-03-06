@@ -31,12 +31,9 @@ Push it. Go to the **Actions** tab on GitHub and watch it run.
    Examples:
    - When code is pushed
    - When a pull request is created
+   - On a schedule
+   - Manually
 
- Examples:
-     When code is pushed
-     When a pull request is created
-     On a schedule
-     Manually
 Example:
 ```
 on:
