@@ -25,20 +25,13 @@ Push it. Go to the **Actions** tab on GitHub and watch it run.
 
 ### Task 3: Understand the Anatomy
 
-1. on:
-
-Purpose: Defines when the workflow will run (trigger).
-
-Examples:
-
-When code is pushed
-
-When a pull request is created
-
-On a schedule
-
-Manually
-
+- `on:` 
+ -Purpose: Defines when the workflow will run (trigger).
+ Examples:
+  When code is pushed
+  When a pull request is created
+  On a schedule
+  Manually
 Example:
 ```
 on:
@@ -47,4 +40,4 @@ on:
   pull_request:
 ```
   Meaning:
-The workflow runs when code is pushed to the main branch or when a pull request is opened/updated.
+ The workflow runs when code is pushed to the main branch or when a pull request is opened/updated.
