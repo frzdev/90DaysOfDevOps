@@ -44,3 +44,16 @@ on:
   Meaning:
   
  The workflow runs when code is pushed to the main branch or when a pull request is opened/updated.
+ 
+- `jobs:` 
+ -Purpose: Contains one or more jobs that will run in the workflow.
+    - Jobs run in parallel by default
+    - Each job has its own environment
+Example:
+```
+jobs:
+  build:
+    runs-on: ubuntu-latest
+```
+Meaning:
+Defines a job called build.   
