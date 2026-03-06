@@ -29,10 +29,10 @@ Push it. Go to the **Actions** tab on GitHub and watch it run.
  -Purpose: Defines when the workflow will run (trigger).
   
  Examples:
-  `When code is pushed`
-  `When a pull request is created`
-  `On a schedule`
-  `Manually`
+     When code is pushed
+     When a pull request is created
+     On a schedule
+     Manually
 Example:
 ```
 on:
