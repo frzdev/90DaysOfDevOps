@@ -1,3 +1,22 @@
+# Day 22 – Introduction to Git: Your First Repository
+
+## Task 1: Install and Configure Git
+1. Verify Git is installed on your machine
+2. Set up your Git identity — name and email
+3. Verify your configuration
+
+   ![snapshot](images/git-version.jpg)
+   
+---
+
+
+
+
+
+
+
+
+
 # Git Basics -- Simple Interview Answers
 
 ## 1. What is the difference between `git add` and `git commit`?
