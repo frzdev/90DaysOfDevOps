@@ -92,7 +92,7 @@ and all version history is lost.
  
  Staging Area:       A temporary area where you select and prepare changes before committing them.
  
- Repository          The Git database where all committed changes and project history are permanently stored.
+ Repository:          The Git database where all committed changes and project history are permanently stored.
 
 Flow:
  Working Directory → Staging Area → Repository
