@@ -36,7 +36,7 @@
 4. Repeat this process at least **3 times** so you have multiple commits in your history
 5. View the full history in a compact format
 
-   ![snapshot](images/add-git-commnads.png)
+   ![snapshot](images/add-git-commnads.jpg)
    
    
 ---
