@@ -31,7 +31,7 @@
 | `git reset commit-id` | reset head back till given commit id | `git reset 4ae73` |
 | `git branch` | list or create branches | `git branch new-feature` |
 | `git checkout branch-name` | switch to another branch | `git checkout new-feature` |
-
+| `git pull` | fetch and merge changes from remote repository | `git pull origin main` |
 
 
 
