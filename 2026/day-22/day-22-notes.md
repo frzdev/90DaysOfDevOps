@@ -88,12 +88,9 @@ and all version history is lost.
 ------------------------------------------------------------------------
 5. What is the difference between a **working directory**, **staging area**, and **repository**?
 
-  Area                Meaning
-  ------------------- ---------------------------------------------------
-  Working Directory   Files you are currently editing
-  Staging Area        Temporary area where you prepare files for commit
-  Repository          Permanent Git history of commits
+ Working Directory: The place where you edit and modify your project files on your computer.
+  Staging Area:       A temporary area where you select and prepare changes before committing them.
+  Repository          The Git database where all committed changes and project history are permanently stored.
 
 Flow:
-
-    Working Directory → Staging Area → Repository
+ Working Directory → Staging Area → Repository
