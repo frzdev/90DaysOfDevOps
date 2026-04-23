@@ -23,10 +23,10 @@
 ---
 
 ## Task 2: Branching Commands — Hands-On
-# 1. List all branches in your repo
+ 1. List all branches in your repo
 git branch
 
-# 2. Create a new branch called feature-1
+ 2. Create a new branch called feature-1
 git branch feature-1
 
 # 3. Switch to feature-1
@@ -47,4 +47,7 @@ git checkout main
 
 # 8. Delete a branch you no longer need
 git branch -d feature-1
+
+---
+## Task 3: Push to GitHub
 
