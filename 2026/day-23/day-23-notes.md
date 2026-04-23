@@ -31,23 +31,29 @@ git branch
     
 git branch feature-1
 
-# 3. Switch to feature-1
+ 3. Switch to feature-1
+
 git checkout feature-1
 
-# 4. Create a new branch and switch to it in a single command — call it feature-2
+ 4. Create a new branch and switch to it in a single command — call it feature-2
+    
 git checkout -b feature-2
 
-# 5. Try using git switch to move between branches — how is it different from git checkout?
+5. Try using git switch to move between branches — how is it different from git checkout?
+   
 git switch feature-1
 
-# 6. Make a commit on feature-1 that does not exist on main
+ 6. Make a commit on feature-1 that does not exist on main
+
 git add .
 git commit -m "Add new feature"
 
-# 7. Switch back to main — verify that the commit from feature-1 is not there
+7. Switch back to main — verify that the commit from feature-1 is not there
+   
 git checkout main
 
-# 8. Delete a branch you no longer need
+ 8. Delete a branch you no longer need
+    
 git branch -d feature-1
 
 ---
