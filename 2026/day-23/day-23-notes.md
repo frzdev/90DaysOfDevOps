@@ -59,3 +59,52 @@ git branch -d feature-1
 ---
 ## Task 3: Push to GitHub
 
+1. Create a new repository on GitHub (do NOT initialize it with a README)
+
+
+
+2. Connect your local devops-git-practice repo to the GitHub remote
+ 
+ Connect local repo to GitHub
+ git remote add origin https://github.com/username/devops-git-practice.git
+
+3. Push your main branch to GitHub
+
+ i)Rename branch to main (if needed)
+ git branch -M main
+
+ii)Push main branch
+git push -u origin main  
+
+4. Push feature-1 branch to GitHub
+
+Push feature branch
+git push origin feature-1
+   
+
+5. Verify both branches are visible on GitHub
+
+Verify remote
+git remote -v
+
+Example:
+Verify Branches on GitHub
+Open your GitHub repository.
+Click the branch dropdown (usually shows main).
+You should see both branches:
+main
+feature-1
+
+
+6. Answer in your notes: What is the difference between origin and upstream?
+
+origin → Default remote repository where you push your code (usually your own GitHub repo).
+upstream → The original repository you forked from, used to pull updates from the main project.
+
+Example
+git remote add origin https://github.com/yourname/devops-git-practice.git
+git remote add upstream https://github.com/original/devops-git-practice.git
+origin → your repo
+upstream → original project repo
+
+
