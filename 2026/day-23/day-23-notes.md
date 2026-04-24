@@ -107,4 +107,48 @@ git remote add upstream https://github.com/original/devops-git-practice.git
 origin → your repo
 upstream → original project repo
 
+----
+## Task 4: Pull from GitHub
+1. Make a change to a file directly on GitHub (use the GitHub editor)
+
+i)Open your repository on GitHub.
+ii)Open a file (e.g., README.md).
+iii)Click the Edit (✏️) icon.
+iv)Add a line like:
+v)Update from GitHub editor
+vi)Add a commit message and click Commit changes.
+   
+2. Pull that change to your local repo
+
+   Run this command in your local repo:
+   git pull origin main
+ 
+3. Answer in your notes: What is the difference between git fetch and git pull?
+4. 
+git fetch downloads changes from the remote repository without merging them, while git pull downloads the changes and automatically merges them into the current branch.
+
+---
+## Task 5: Clone vs Fork
+1. What is the difference between clone and fork?
+   
+Clone: Creates a local copy of a repository on your computer.
+Fork: Creates a copy of someone else's repository in your GitHub account.
+
+
+2. When would you clone vs fork?
+   
+Clone: When you have access to the repository and want to work on it locally.
+Fork: When you want to contribute to someone else’s project without direct write access.
+
+
+3. After forking, how do you keep your fork in sync with the original repo?
+   
+Add the original repository as upstream and pull updates:
+git remote add upstream <original-repo-url>git fetch upstreamgit merge upstream/main
+
+
+
+
+
+
 
